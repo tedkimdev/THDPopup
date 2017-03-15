@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "THDPopup"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "A simple custom popup view controller."
 s.homepage = "https://github.com/00aney/THDPopup"
 s.license = { :type => "MIT", :file => "LICENSE" }
