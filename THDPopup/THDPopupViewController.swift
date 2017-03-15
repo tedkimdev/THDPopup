@@ -16,6 +16,7 @@ import SnapKit
 public class THDPopupViewController: UIViewController {
   
   // MARK: Constants
+  
   struct Metric {
     static let popupImageViewWidthRatio = CGFloat(580)
     static let popupImageViewHeightRatio = CGFloat(610)
@@ -163,20 +164,17 @@ public class THDPopupViewController: UIViewController {
   // MARK: Actions
   
   func centerImageButtonDidTap() {
-    print("imageButtonDidTap", self.imageView.width, self.imageView.snp.width)
     if let buttonDidTap = self.imageButtonDidTap {
       buttonDidTap()
     }
   }
   func bottomLeftButtonDidTap() {
-    print("bottomLeftButtonDidTap")
     if let buttonDidTap = self.leftButtonDidTap {
       buttonDidTap()
     }
     
   }
   func bottomRightButtonDidTap() {
-    print("bottomRightButtonDidTap")
     if let buttonDidTap = self.rightButtonDidTap {
       buttonDidTap()
     }
