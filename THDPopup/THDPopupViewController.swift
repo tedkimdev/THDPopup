@@ -13,7 +13,7 @@ import Kingfisher
 import ManualLayout
 import SnapKit
 
-class THDPopupViewController: UIViewController {
+public class THDPopupViewController: UIViewController {
   
   // MARK: Constants
   struct Metric {
@@ -48,7 +48,7 @@ class THDPopupViewController: UIViewController {
   
   // MARK: Initializing
   
-  init(width imageWidth: CGFloat,
+  public init(width imageWidth: CGFloat,
        top outerViewTop: CGFloat,
        imageURL: String = "",
        linkURL: String = "",
@@ -69,14 +69,14 @@ class THDPopupViewController: UIViewController {
     self.rightButtonDidTap = rightButtonDidTap
   }
   
-  required init?(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
   
   
   // MARK: View Life Cycle
   
-  override func viewDidLoad() {
+  override public func viewDidLoad() {
     super.viewDidLoad()
     
     self.view.backgroundColor = .clear
@@ -150,11 +150,11 @@ class THDPopupViewController: UIViewController {
     self.fetchPopupImage()
   }
   
-  override func viewDidLayoutSubviews() {
+  override public func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
   }
   
-  override func didReceiveMemoryWarning() {
+  override public func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
