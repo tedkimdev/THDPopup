@@ -52,4 +52,4 @@ pod 'THDPopup', '~> 0.0'
 License
 -------
 
-**Then** is under MIT license. See the [LICENSE](LICENSE) file for more info.
+**THDPopup** is under MIT license. See the [LICENSE](LICENSE) file for more info.
