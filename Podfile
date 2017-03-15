@@ -4,7 +4,6 @@ target 'THDPopup' do
   use_frameworks!
 
   # Networking
-  pod 'Alamofire', '~> 4.3'
   pod 'Kingfisher', '~> 3.3'
 
   # UI

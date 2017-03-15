@@ -8,7 +8,6 @@
 
 import UIKit
 
-import Alamofire
 import Kingfisher
 import ManualLayout
 import SnapKit

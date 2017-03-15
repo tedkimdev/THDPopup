@@ -11,7 +11,6 @@ s.source = { :git => "https://github.com/00aney/THDPopup.git", :tag => "#{s.vers
 s.source_files = "THDPopup/**/*.{swift}"
 s.framework = "UIKit"
 s.requires_arc = true
-s.dependency 'Alamofire', '~> 4.3'
 s.dependency 'Kingfisher', '~> 3.3'
 s.dependency 'SnapKit', '~> 3.2'
 s.dependency 'ManualLayout', '~> 1.3'
