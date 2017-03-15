@@ -3,6 +3,8 @@ THDPopup
   
 A simple custom popup view controller.
 
+<img width="394" alt="2017-03-16 8 50 34" src="https://cloud.githubusercontent.com/assets/20268356/23975700/cb93126c-0a25-11e7-8e6b-d41806cfe087.png">
+
 Example
 -------
 
